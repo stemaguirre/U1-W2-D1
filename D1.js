@@ -74,4 +74,7 @@ console.log(4 - x)
 let name1 = 'john'
 let name2 = 'John'
 console.log(name1 === name2)
-// Non ho capitio come si fa l'extra
+
+name2 = name2.toLowerCase()
+
+console.log(name1 === name2)
